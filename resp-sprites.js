@@ -1,3 +1,14 @@
+/**
+ * Responsive Sprites Framework
+ * Copyright 2019 Milan Babic https://www.linkedin.com/in/milanbabic1978/
+ * Licensed under: SEE LICENSE IN https://github.com/1978milanbabic/responsive_sprites_framework/blob/master/LICENSE
+ */
+/**
+ * Responsive Sprites Framework
+ * @version 1.0.0
+ * @author Milan Babic https://www.linkedin.com/in/milanbabic1978/
+ */
+
 function RespSprites(Obj) {
 
     var cssClass = Obj["cssclass"];
