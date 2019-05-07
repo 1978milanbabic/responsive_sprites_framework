@@ -3,10 +3,12 @@
 
 ### Handles sprites images in unique way.
     This way displayed images are much more accurate and responsive while framework does all the calculating.
-    Handling images is simple and reminds of popular font-awesome
-    ```html
-    <i class="sprites-imgname"></i>
-    ```
+
+    Handling images is simple and reminds of popular font-awesome:
+
+```html
+<i class="sprites-imgname"></i>
+```
 
 
 ### The easiest way is to visit [RSF website](http://responsive-sprites.com) and follow the instructions
@@ -14,16 +16,16 @@
 
 ## Or You could do it manually. (This is the principle how this framework works):
 
-### Implement Framework (Constructor Function) somewhere in the head section
+### 1. Implement Framework (Constructor Function) somewhere in the head section
 ```html
 <script src="/res-sprites.min.js"></script>
 ```
 
-### Obtain your images data thru some of sprites generating engines/websites
+### 2. Obtain your images data thru some of sprites generating engines/websites
 You should create data object following this scheme:
 ```javascript
 var pngs_data = {
-    cssclass: "rsprites",
+    cssclass: "sprites",
     img_source: "./img/sprites.png",
     total_width: 404,
     total_height: 404,
@@ -56,7 +58,7 @@ var pngs_data = {
 };
 ```
 
-### Last step: Create Your Sprites either on document ready, either on window load (DOM needs to be loaded)
+### 3. Last step: Create Your Sprites either on document ready, either on window load (DOM needs to be loaded)
 ```javascript
 //create sprites
 var pngs = new RespSprites(pngs_data);
