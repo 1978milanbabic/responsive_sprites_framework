@@ -11,7 +11,9 @@
 ```
 
 
-### The easiest way is to visit [RSF website](http://responsive-sprites.com) and follow the instructions
+### The easiest way is to visit [RSF website](http://responsive-sprites.com) and follow the instructions - (THIS WAY IS MUCH EASIER AND YOU WILL AVOID MANUAL "SPRITING")
+
+
 
 
 ## Or You could do it manually. (This is the principle how this framework works):
