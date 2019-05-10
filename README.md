@@ -13,7 +13,7 @@
 
 ### The easiest way is to visit [RSF website](http://responsive-sprites.com) and follow the instructions - (THIS WAY IS MUCH EASIER AND YOU WILL AVOID MANUAL "SPRITING")
 
-
+![example](https://github.com/1978milanbabic/responsive_sprites_framework/blob/master/example.png)
 
 
 ## Or You could do it manually. (This is the principle how this framework works):
