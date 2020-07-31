@@ -1,5 +1,7 @@
-# Responsive Sprites Framework
+# Responsive Sprites Framework (IN REVISION!)
 
+## Use cases:
+*
 
 ### Handles sprites images in unique way.
     This way displayed images are much more accurate and responsive while framework does all the calculating.
